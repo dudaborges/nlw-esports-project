@@ -16,6 +16,10 @@ body{
     background-color: #121214;
 }
 
+body * {
+    font-family: 'Inter', sans-serif;
+}
+
 main {
     max-width: 580px; /* máximo de largura*/
     width: 90%; 
