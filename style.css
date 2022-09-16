@@ -18,6 +18,7 @@ body{
 
 body * {
     font-family: 'Inter', sans-serif;
+    line-height: 160%;
 }
 
 main {
@@ -39,4 +40,9 @@ section{
 section h2{
     letter-spacing: -0.47px;
 
+}
+
+section p{
+    letter-spacing: -0.18px;
+    color: #A1A1AA;
 }
