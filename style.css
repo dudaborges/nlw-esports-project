@@ -1,0 +1,7 @@
+body{
+    background-image: url(./bg.jpg);
+    background-position: top center; /*Centraliza e deixa no topo*/
+    background-size: 100% auto;
+    background-repeat: no-repeat; /*Não repete a imagem*/
+    background-color: #121214;
+}
