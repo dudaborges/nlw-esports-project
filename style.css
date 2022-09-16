@@ -49,5 +49,16 @@ section p{
 
 ul{
     display: flex; /*display é a visualização das caixas do html*/
-    gap: 16px
+    gap: 16px;
+    margin-top: 24px;
+}
+
+.series-list img{
+    width: 170px;
+    border-radius: 8px;
+}
+
+.singer-list img{
+    width: 100px;
+    border-radius: 50%;
 }
