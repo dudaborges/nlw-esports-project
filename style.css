@@ -25,6 +25,10 @@ main {
     max-width: 580px; /* máximo de largura*/
     width: 90%; 
     margin: auto; /*margem da tela automática*/
+
+    display: grid;
+    gap: 24px;
+    
 }
 
 /* main * {
@@ -33,8 +37,17 @@ main {
 
 section{
     color: white;
+    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+    padding-top: 4px;
+    border-radius: 10px;
+    
+}
 
-
+section div{
+    background-color: #2A2634;
+    padding: 32px;
+    padding-top: 24px;
+    border-radius: 8px;
 }
 
 section h2{
@@ -47,7 +60,7 @@ section p{
     color: #A1A1AA;
 }
 
-ul{
+section ul{
     display: flex; /*display é a visualização das caixas do html*/
     gap: 16px;
     margin-top: 24px;
