@@ -46,3 +46,8 @@ section p{
     letter-spacing: -0.18px;
     color: #A1A1AA;
 }
+
+ul{
+    display: flex; /*display é a visualização das caixas do html*/
+    gap: 16px
+}
