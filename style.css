@@ -28,7 +28,8 @@ main {
 
     display: grid;
     gap: 24px;
-    
+
+    margin-top: 32px;
 }
 
 /* main * {
@@ -62,6 +63,7 @@ section p{
 
 section ul{
     display: flex; /*display é a visualização das caixas do html*/
+    flex-wrap: wrap;
     gap: 16px;
     margin-top: 24px;
 }
